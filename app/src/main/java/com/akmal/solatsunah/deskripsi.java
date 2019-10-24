@@ -28,6 +28,8 @@ public class deskripsi extends AppCompatActivity {
         webView.getSettings().setLoadsImagesAutomatically(true);
 
         webView.loadUrl(link);
+       
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
     }
 }
 
